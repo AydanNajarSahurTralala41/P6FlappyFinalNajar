@@ -41,7 +41,7 @@ public class GameControl : MonoBehaviour {
             return;
         }
         score++;
-        scoreText.text = "Score: " + score.ToString ();
+        scoreText.text = "Flap points: " + score.ToString ();
     }
     public void BirdDied()
     {
